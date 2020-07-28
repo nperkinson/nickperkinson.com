@@ -1,0 +1,374 @@
+@font-face {
+    font-family: CircularStd;
+    font-weight: 600;
+    src: url('/fonts/CircularStd-Black.otf');
+}
+
+@font-face {
+    font-family: CircularStd;
+    font-style: italic;
+    font-weight: 600;
+    src: url('/fonts/CircularStd-BlackItalic.otf');
+}
+
+@font-face {
+    font-family: CircularStd;
+    font-weight: 500;
+    src: url('/fonts/CircularStd-Bold.otf');
+}
+
+@font-face {
+    font-family: CircularStd;
+    font-style: italic;
+    font-weight: 500;
+    src: url('/fonts/CircularStd-BoldItalic.otf');
+}
+
+@font-face {
+    font-family: CircularStd;
+    font-weight: 400;
+    src: url('/fonts/CircularStd-Medium.otf');
+}
+
+@font-face {
+    font-family: CircularStd;
+    font-style: italic;
+    font-weight: 400;
+    src: url('/fonts/CircularStd-MediumIntalic.otf');
+}
+
+@font-face {
+    font-family: CircularStd;
+    font-weight: 400;
+    src: url('/fonts/CircularStd-Medium.otf');
+}
+
+@font-face {
+    font-family: CircularStd;
+    font-weight: 300;
+    src: url('/fonts/CircularStd-Book.otf');
+}
+
+@font-face {
+    font-family: CircularStd;
+    font-style: italic;
+    font-weight: 300;
+    src: url('/fonts/CircularStd-Book.otf');
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    border: auto;
+    font-family: CircularStd, sans-serif;
+    margin: auto;
+    max-width: 960px;
+    padding: auto;
+}
+
+.container {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header {
+    background-color: white;
+    font-size: 13px;
+    height: 155px;
+    padding: 40px 0 0;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+.bio {
+    padding-top: 175px;
+}
+
+
+header > h1 {
+    font-weight: 100;
+    font-size: 32px;
+    padding: 40px 0 0 ;
+}
+
+header > h2 {
+    font-size: 13px;
+    font-weight: 100;
+}
+
+nav {
+    -webkit-transition: .1s ease-out;
+    border: 2px solid black;
+    box-shadow: 0.4em 0.3em 0 0 black;
+    color: black;
+    float: right;
+    font-size: 10pt;
+    line-height: 1;
+    margin-top: 50px;
+    padding: 10px 26px;
+    transition: .1s ease-out;
+    word-spacing: 50px;
+}
+
+nav:hover {
+    box-shadow: none;
+}
+
+nav > a {
+    color: inherit;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.intro-statement > h4 {
+    font-size: 26pt;
+    font-weight: 900;
+    padding-top: 35px;
+}
+
+.about-me {
+    padding-bottom: 100px;
+}
+
+.about-me > h4#about-me {
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 1.5;
+    padding-bottom: 25px;
+    padding-top: 20px;
+}
+
+.about-me > a#email {
+    -webkit-transition: .1s ease-out;
+    border-bottom: 1px solid;
+    color: inherit;
+    font-size: 19px;
+    font-weight: 100;
+    padding-bottom: 2px;
+    padding-top: 0;
+    text-decoration: none;
+    transition: .1s ease-out;
+}
+
+.about-me > a#email:hover {
+    background: black;
+    color: white;
+}
+
+.experience > h4 {
+    font-size: 28px;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+
+.experience > ul {
+    list-style: none;
+    padding: 5px;
+    text-decoration: none;
+}
+
+li {
+    display: list-item;
+    margin: 0;
+    margin-bottom: 18px;
+}
+
+#leidos-logo {
+    height: 12px;
+    width: 22px;
+}
+
+#tri-star-logo {
+    height: 14px;
+    width: 18px;
+}
+
+#iu-logo {
+    height: 15.5px;
+    width: 17px;
+}
+
+#kind-logo {
+    height: 8px;
+    padding: 3px;
+    width: 20.5px;
+}
+
+#rpm-logo {
+    height: 16px;
+    width: 18px;
+}
+
+#iu-grad {
+    height: 16px;
+    padding: 1px;
+    width: 16px;
+}
+
+.company {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.work-date {
+    background-color: #f5f5f5;
+    border-radius: 7px;
+    color: #2e2620;
+    display: inline;
+    font-size: 13px;
+    font-weight: lighter;
+    line-height: 25px;
+    margin-left: 5px;
+    padding: 3px;    
+}
+
+.work-date:hover {
+    -webkit-transition: .1s ease-out;
+    background-color: #2e2620;
+    color: #f6f5ed;
+    transition: .1s ease-out;
+}
+
+.work-subtitle {
+    font-size: 16px;
+}
+
+.projects > h4 {
+    font-size: 28px;
+    font-weight: 100;
+    padding-top: 50px;
+}
+
+.row {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.column {    
+    box-sizing: border-box;
+    margin-top: 1rem !important;
+    max-height: 350px;
+    max-width: 415px;
+    min-height: 350px;
+    min-width: 415px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.box {
+    background-color: #f3f3f3;
+    cursor: pointer;
+    display: block;
+    height: 350px;
+    max-height: 350px;
+    max-width: 415px;
+    min-height: 350px;
+    min-width: 415px;
+    position: relative;
+    z-index: 97;
+}
+
+.image-wrapper {
+    -o-object-fit: contain;
+    -webkit-transform: translateY(-50%);
+    display: block;
+    height: auto;
+    max-width: 70%;
+    margin: auto;
+    object-fit: contain;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#quilt-pic-itself {
+    display: block;
+    height: 260px;
+    position: relative;
+    width: 200px;
+    z-index: 97;
+
+}
+
+#maps-pic-itself {
+    height: 240px;
+    width: 150px;
+    z-index: 97;
+}
+
+
+.image-overlay {
+    display: block;
+    position: relative;
+    z-index: 98;
+}
+
+.image-overlay:hover {
+    -webkit-transition: .4s ease;
+    background-color: #00a1ff;
+    cursor: pointer;
+    display: block;
+    max-height: 350px;
+    max-width: 415px;
+    min-height: 350px;
+    min-width: 415px;
+    opacity: .4;
+    position: absolute;
+    transition: .4s ease;
+    z-index: 98;
+}
+
+
+.image-overlay-text {  
+    -webkit-transition: .4s ease;
+    color: #f3f3f3;
+    line-height: 1;
+    font-size: x-large;
+    font-weight: bolder;
+    max-width: 60%;
+    padding-left: 29px;
+    padding-top: 25px;
+    position: absolute;
+    transition: .4s ease;
+    z-index: 98;
+}
+
+.image-overlay-text:hover {
+    color: white;
+}
+
+.footer {
+    font-size: 13px;
+    line-height: 21px;
+    margin-bottom: 40px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+a#endnote {
+    -webkit-transition: .1s ease-out;
+    box-shadow: 0.4em 0.3em 0 0 black;
+    border: 2px solid black;
+    color: black;
+    font-size: 10pt;
+    line-height: 1;
+    padding: 4px 4px;
+    text-decoration: none;
+    transition: .1s ease-out;
+}
+
+a#endnote:hover {
+    background: red;
+    box-shadow: none;
+    color: white;
+}
+
+div#fontBombConfirmation.show {
+    display: none !important;
+    top: 0px;
+}
