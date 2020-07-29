@@ -295,11 +295,17 @@ li {
 
 }
 
-#maps-pic-itself {
+#reel-pic-itself {
     height: 240px;
     width: 150px;
     z-index: 97;
 }
+
+/* #maps-pic-itself {
+    height: 240px;
+    width: 150px;
+    z-index: 97;
+} */
 
 
 .image-overlay {
