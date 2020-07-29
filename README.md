@@ -1,6 +1,6 @@
 # nickperkinson.com
 
-A lightweight HTML/CSS portfolio site built as minimal as possible. 
+A lightweight HTML/CSS portfolio site built as minimal as possible. [Visit it here.](https://nickperkinson.com).
 
 ![nickperkinson.com Tour](tour.gif)
 
