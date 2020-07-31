@@ -239,6 +239,11 @@ li {
     padding-top: 50px;
 }
 
+.project-title > a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .row {
     box-sizing: border-box;
     display: flex;
